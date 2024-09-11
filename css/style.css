@@ -140,7 +140,6 @@ body {
     background-color: #FFC376;
 }
 
-
 /* main info */
 .main-info {
     display: flex;
@@ -149,7 +148,6 @@ body {
     margin-bottom: 54px;
 }
 .main-info__text {
-    /* border: 5px solid var(--secondary-color); */
     border: 5px solid rgba(0,219,172,.4);
     border-right-color: transparent;
     padding: 54px 59px 65px 35px;
@@ -210,6 +208,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     gap: 3px;
 }
+.brands__item {}
 
 /* news */
 .news {
